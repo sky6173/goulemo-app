@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="购了么是一款本地优先的 Android 购物清单应用，帮你记录待买、已买和日常采购。"
+    />
+    <title>购了么 - 购物清单，简单有序</title>
+    <link rel="icon" href="./assets/app-icon.png" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="购了么首页">
+        <img src="./assets/app-icon.png" alt="" class="brand-icon" />
+        <span>购了么</span>
+      </a>
+      <nav class="nav-links" aria-label="主导航">
+        <a href="#features">功能</a>
+        <a href="#release">版本</a>
+        <a href="#privacy">隐私</a>
+      </nav>
+      <a class="header-action" href="https://github.com/sky6173/goulemo-app/releases/download/v1.0.1/app-release.apk">
+        下载 APK
+      </a>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <img src="./assets/app-icon.png" alt="" class="hero-icon" />
+          <h1>购了么</h1>
+          <p class="hero-subtitle">购物清单 · 简单有序 · 生活更轻松</p>
+          <p class="hero-body">
+            把临时想到的东西、今天要买的食材、已经买完的项目，都放进一个清爽的本地清单里。
+            不复杂，不打扰，只帮你把采购这件小事理顺。
+          </p>
+          <div class="hero-actions">
+            <a class="primary-button" href="https://github.com/sky6173/goulemo-app/releases/download/v1.0.1/app-release.apk">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 3v11m0 0 4-4m-4 4-4-4M5 17v2a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-2" />
+              </svg>
+              下载最新版
+            </a>
+            <a class="secondary-button" href="#release">查看版本说明</a>
+          </div>
+        </div>
+
+        <div class="phone-stage" aria-label="应用界面预览">
+          <div class="phone-shell">
+            <div class="phone-status">
+              <span>9:41</span>
+              <span class="status-icons">5G · 86%</span>
+            </div>
+            <div class="app-top">
+              <img src="./assets/app-icon.png" alt="" class="app-top-icon" />
+              <div>
+                <h2>购了么</h2>
+                <p>购物清单 · 简单有序</p>
+              </div>
+              <button class="dot-button" aria-label="更多操作">•••</button>
+            </div>
+            <div class="stats-card">
+              <div><strong>2</strong><span>待买</span></div>
+              <div><strong>1</strong><span>已买</span></div>
+              <div><strong>3</strong><span>总计</span></div>
+              <div class="progress"><span></span></div>
+            </div>
+            <div class="add-card">
+              <div class="input-line">
+                <span>＋</span>
+                <strong>添加商品</strong>
+                <button aria-label="添加">＋</button>
+              </div>
+              <div class="mini-grid">
+                <div><small>数量</small><strong>1</strong></div>
+                <div><small>单位</small><strong>件</strong></div>
+                <div class="category-pill"><span></span>蔬果</div>
+              </div>
+              <div class="category-row">
+                <span class="active">蔬果</span>
+                <span>肉蛋奶</span>
+                <span>主食</span>
+                <span>零食</span>
+              </div>
+            </div>
+            <div class="search-card">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m21 21-4.35-4.35M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15Z" />
+              </svg>
+              <span>搜索商品或分类</span>
+              <button aria-label="筛选">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4 7h10m4 0h2M4 17h2m4 0h10M8 5v4m8 6v4" />
+                </svg>
+              </button>
+            </div>
+            <div class="filter-row">
+              <span class="selected">待买 2</span>
+              <span>已买 1</span>
+            </div>
+            <div class="item-card">
+              <span class="check pending"></span>
+              <div>
+                <strong>牛奶</strong>
+                <p>1瓶 · 肉蛋奶</p>
+              </div>
+              <button aria-label="更多">•••</button>
+            </div>
+            <div class="item-card bought">
+              <span class="check done">✓</span>
+              <div>
+                <strong>巧克力</strong>
+                <p>1件 · 零食</p>
+              </div>
+              <button aria-label="更多">•••</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="section feature-section">
+        <div class="section-heading">
+          <h2>把采购流程做轻一点</h2>
+          <p>围绕“添加、筛选、买完、整理”四件事设计，没有多余入口。</p>
+        </div>
+        <div class="feature-grid">
+          <article>
+            <span class="feature-mark green"></span>
+            <h3>本地优先</h3>
+            <p>清单保存在本机，日常记录不需要账号，也不强迫联网。</p>
+          </article>
+          <article>
+            <span class="feature-mark coral"></span>
+            <h3>待买 / 已买</h3>
+            <p>两个状态就够用，单个商品和批量整理都能处理。</p>
+          </article>
+          <article>
+            <span class="feature-mark yellow"></span>
+            <h3>分类和数量</h3>
+            <p>蔬果、肉蛋奶、主食、零食，常用采购场景一眼能扫到。</p>
+          </article>
+          <article>
+            <span class="feature-mark purple"></span>
+            <h3>长按操作</h3>
+            <p>编辑、删除、转移放在明确菜单里，减少误触。</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="release" class="section release-section">
+        <div class="release-card">
+          <div>
+            <h2>当前版本</h2>
+            <p>v1.0.1 · 动效优化版</p>
+          </div>
+          <ul>
+            <li>统计数字、进度条、筛选按钮加入轻量动效。</li>
+            <li>列表和空状态增加淡入滑动过渡。</li>
+            <li>保持原有清单逻辑，不改变你的使用习惯。</li>
+          </ul>
+          <a class="primary-button" href="https://github.com/sky6173/goulemo-app/releases/download/v1.0.1/app-release.apk">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 3v11m0 0 4-4m-4 4-4-4M5 17v2a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-2" />
+            </svg>
+            下载 APK
+          </a>
+        </div>
+      </section>
+
+      <section id="privacy" class="section privacy-section">
+        <div class="section-heading compact">
+          <h2>清爽，也要安心</h2>
+          <p>当前版本以本地使用为主，不需要账号，也不会把你的购物清单上传到服务器。</p>
+        </div>
+        <div class="privacy-list">
+          <div><strong>不需要账号</strong><span>当前版本以本机使用为主。</span></div>
+          <div><strong>不上传清单</strong><span>商品内容不会被官网收集。</span></div>
+          <div><strong>公开下载</strong><span>APK 通过 GitHub Releases 发布。</span></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>购了么</span>
+      <a href="https://github.com/sky6173/goulemo-app/releases">GitHub Releases</a>
+    </footer>
+  </body>
+</html>
