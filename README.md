@@ -6,7 +6,7 @@
 
 请到 Releases 页面下载最新版 APK：
 
-https://github.com/sky6173/goulemo-app/releases
+https://github.com/sky6173/goulemo-app/releases/tag/v1.0.0
 
 ## 当前版本
 
