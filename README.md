@@ -6,8 +6,7 @@
 
 - 最新版本：v1.0.0
 - 安装包：app-release.apk
-- 下载页面：https://github.com/sky6173/goulemo-app/releases/tag/v1.0.0
-- APK 直链：https://github.com/sky6173/goulemo-app/releases/download/v1.0.0/app-release.apk
+- 下载地址：https://github.com/sky6173/goulemo-app/releases/download/v1.0.0/app-release.apk
 
 ## v1.0.0 更新内容
 
