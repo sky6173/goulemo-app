@@ -4,9 +4,20 @@
 
 ## 下载
 
-- 最新版本：v1.0.0
+- 最新版本：v1.0.1
 - 安装包：app-release.apk
-- 下载地址：https://github.com/sky6173/goulemo-app/releases/download/v1.0.0/app-release.apk
+- 下载地址：https://github.com/sky6173/goulemo-app/releases/download/v1.0.1/app-release.apk
+
+## v1.0.1 更新内容
+
+本次主要优化界面动效，让操作反馈更柔和：
+
+- 数量统计变化增加轻微弹入反馈
+- 顶部进度条切换为平滑动画
+- 分类卡片、筛选按钮、底部导航增加柔和选中动效
+- 商品列表切换和空状态展示增加淡入上滑效果
+- 已买商品状态变化增加轻微视觉过渡
+- 保持原有布局和操作逻辑不变
 
 ## v1.0.0 更新内容
 
@@ -32,7 +43,7 @@
 下载后可用 SHA256 校验安装包：
 
 ```text
-57c333927cedb4a436f94b389f0be5bc8bba33d0316227a034acd8ada07885fa
+99ee83f57597ee632d13aaa901c6349fd432da2a5d02ee633ce956431995083b
 ```
 
 ## 仓库说明
